@@ -17,7 +17,7 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: 'docs house',
-  description: '文档屋',
+  description: '老夏文档屋',
 
   head: [
     // 配置站点图标

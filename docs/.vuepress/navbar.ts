@@ -12,16 +12,6 @@ export default defineNavbarConfig([
   // { text: '标签', link: '/blog/tags/' },
   // { text: '归档', link: '/blog/archives/' },
   {
-    text: '笔记',
-    items: [
-      { text: '示例',
-        items:[
-          { text: '配置', link: '/config/plugins/' },
-        ]
-      },
-    ]
-  },
-  {
     text:'技术栈',
     items:[
       {text:'前端',link:'/frontend/vue3/eslint/'},

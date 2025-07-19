@@ -7,16 +7,16 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: DOCS HOUSE
+      tagline: Lao Xia's Document House
+      text: 一个简约的，功能丰富的技术文档
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 技术
+          link: /frontend/vue3/eslint/
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/WhileSun/
 ---

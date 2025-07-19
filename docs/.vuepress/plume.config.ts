@@ -40,10 +40,10 @@ export default defineThemeConfig({
   // createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: {
+    message: ' ©2025 docs house',
+    copyright: '<a target="_blank" href="https://beian.miit.gov.cn/" style="text-decoration: none;">浙ICP备2025185982号-1</a>',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
@@ -51,7 +51,7 @@ export default defineThemeConfig({
   profile: {
     avatar: 'https://theme-plume.vuejs.press/plume.png',
     name: 'docs house',
-    description: '文档屋',
+    description: '老夏文档屋 文档 技术文档',
     // circle: true,
     // location: '',
     // organization: '',
