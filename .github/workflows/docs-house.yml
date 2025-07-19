@@ -1,0 +1,45 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+name: docs-house
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 拉取代码
+      uses: actions/checkout@v4
+    
+    - name: 添加node环境
+      uses: actions/setup-node@v3
+      with:
+        node-version: 20.x
+  
+    # - name: 安装pnpm
+    #   uses: pnpm/action-setup@v4.0.0
+    #   with:
+    #     version: 9.4.0
+
+    - name: 打包
+      run: |
+        npm install
+        npm run docs:build
+
+     # https://github.com/appleboy/scp-action
+    - name: 部署到服务器
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.REMOTE_HOST }} # 公网ip
+        username: ${{ secrets.REMOTE_USERNAME }} # 用户名
+        key: ${{ secrets.REMOTE_PRIVATE_KEY }} # ssh key
+        source: "docs/.vuepress/dist/*" # 发送文件
+        target: "/home/nginx/html/docshouse" # 目标目录
+        strip_components: 3 # 移除指定数量的前导路径元素---不添加会保留前面的文件夹
+        rm: true # 删除之前的文件
