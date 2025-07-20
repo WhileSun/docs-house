@@ -15,7 +15,8 @@ export default defineNavbarConfig([
     text:'技术栈',
     items:[
       {text:'前端',link:'/frontend/vue3/eslint/'},
-      {text:'后端',link:'/backend/'}
+      {text:'后端',link:'/backend/'},
+      {text:'运维',link:'/devops/server/domain-auto-renewal/'}
     ]
   }
 ])
