@@ -7,16 +7,7 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: '首页', link: '/' },
-  // { text: '博客', link: '/blog/' },
-  // { text: '标签', link: '/blog/tags/' },
-  // { text: '归档', link: '/blog/archives/' },
-  {
-    text:'技术栈',
-    items:[
-      {text:'前端',link:'/frontend/vue3/eslint/'},
-      {text:'后端',link:'/backend/'},
-      {text:'运维',link:'/devops/server/domain-auto-renewal/'}
-    ]
-  }
+  { text: '前端', link: '/frontend/vue3/data-prop/', icon: 'codicon:code-oss' },
+  { text: '后端', link: '/backend/', icon: 'codicon:terminal' },
+  { text: '运维', link: '/devops/server/domain-auto-renewal/', icon: 'codicon:debug' }
 ])
