@@ -18,6 +18,7 @@ export const frontend = defineCollection({
     // 次级 items 自动读取 typescript/guide 目录
     { text: 'vue2', collapsed: false, prefix: 'vue2', items: 'auto' },
     { text: 'vue3', collapsed: false, prefix: 'vue3', items: 'auto' },
+    { text: 'vite', collapsed: false, prefix: 'vite', items: 'auto' },
     { text: '小程序', prefix: 'miniprogram', items: 'auto' },
     { text: '开发工具', prefix: 'devtool', items: 'auto' },
   ],

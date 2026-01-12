@@ -1,7 +1,8 @@
 ---
-title: 组件通信方式
+title: 组件：交互
 createTime: 2025/07/18 09:50:49
-permalink: /frontend/vue3/data-prop/
+permalink: /frontend/vue3/api-interaction/
+badge: 通信
 ---
 
 ## 概述
