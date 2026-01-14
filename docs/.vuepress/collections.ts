@@ -17,7 +17,15 @@ export const frontend = defineCollection({
   sidebar: [
     // 次级 items 自动读取 typescript/guide 目录
     { text: 'vue2', collapsed: false, prefix: 'vue2', items: 'auto' },
-    { text: 'vue3', collapsed: false, prefix: 'vue3', items: 'auto' },
+    {
+      text: 'vue3', collapsed: false, prefix: 'vue3', items: [
+        {
+          text: '基础', collapsed: false, items: [
+            'lifecycle', 'reactivity-create', 'reactivity-listen', 'reactivity-utils', 'api-interaction', 'api-helpers', 'api-define'
+          ]
+        },
+      ]
+    },
     { text: 'vite', collapsed: false, prefix: 'vite', items: 'auto' },
     { text: '小程序', prefix: 'miniprogram', items: 'auto' },
     { text: '开发工具', prefix: 'devtool', items: 'auto' },

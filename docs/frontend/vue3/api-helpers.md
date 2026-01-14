@@ -1,8 +1,7 @@
 ---
-title: 辅助函数
+title: use函数
 createTime: 2026/01/12 15:12:38
 permalink: /frontend/vue3/api-helpers/
-badge: use
 ---
 
 ## useAttrs()
