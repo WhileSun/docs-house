@@ -7,7 +7,7 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: '前端', link: '/frontend/vue3/lifecycle/', icon: 'codicon:code-oss' },
+  { text: '前端', link: '/frontend/vue3/script/lifecycle/', icon: 'codicon:code-oss' },
   { text: '后端', link: '/backend/', icon: 'codicon:terminal' },
   { text: '运维', link: '/devops/server/domain-auto-renewal/', icon: 'codicon:debug' }
 ])

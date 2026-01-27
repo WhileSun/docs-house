@@ -1,7 +1,7 @@
 ---
 title: 生命周期
 createTime: 2026/01/09 15:54:36
-permalink: /frontend/vue3/lifecycle/
+permalink: /frontend/vue3/script/lifecycle/
 ---
 
 

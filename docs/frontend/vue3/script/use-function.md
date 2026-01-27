@@ -1,7 +1,7 @@
 ---
 title: use函数
 createTime: 2026/01/12 15:12:38
-permalink: /frontend/vue3/api-helpers/
+permalink: /frontend/vue3/script/use-function/
 ---
 
 ## useAttrs()

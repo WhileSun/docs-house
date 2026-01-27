@@ -1,7 +1,7 @@
 ---
 title: 响应式：监听
 createTime: 2026/01/12 10:35:31
-permalink: /frontend/vue3/reactivity-listen/
+permalink: /frontend/vue3/script/reactivity-listen/
 ---
 
 ## computed()

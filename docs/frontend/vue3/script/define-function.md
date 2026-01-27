@@ -1,7 +1,7 @@
 ---
 title: define函数
 createTime: 2026/01/12 15:59:16
-permalink: /frontend/vue3/api-define/
+permalink: /frontend/vue3/script/define-function/
 ---
 
 

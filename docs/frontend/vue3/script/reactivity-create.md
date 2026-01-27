@@ -1,7 +1,7 @@
 ---
 title: 响应式：创建
 createTime: 2026/01/12 09:32:57
-permalink: /frontend/vue3/reactivity-create/
+permalink: /frontend/vue3/script/reactivity-create/
 ---
 
 ## ref()

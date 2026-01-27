@@ -1,7 +1,7 @@
 ---
 title: 响应式：工具
 createTime: 2026/01/12 14:31:21
-permalink: /frontend/vue3/reactivity-utils/
+permalink: /frontend/vue3/script/reactivity-utils/
 ---
 
 ## isRef()

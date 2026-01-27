@@ -20,10 +20,13 @@ export const frontend = defineCollection({
     {
       text: 'vue3', collapsed: false, prefix: 'vue3', items: [
         {
-          text: '基础', collapsed: false, items: [
-            'lifecycle', 'reactivity-create', 'reactivity-listen', 'reactivity-utils', 'api-interaction', 'api-helpers', 'api-define'
-          ]
+          text: '基础setup', collapsed: false, prefix: 'script', items: [
+            'lifecycle', 'reactivity-create', 'reactivity-listen', 'reactivity-utils', 'use-function', 'define-function'
+          ],
         },
+        {
+          text: '模板', collapsed: false, prefix: 'template', items: 'auto'
+        }
       ]
     },
     { text: 'vite', collapsed: false, prefix: 'vite', items: 'auto' },

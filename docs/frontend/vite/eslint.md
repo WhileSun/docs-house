@@ -1,7 +1,8 @@
 ---
-title: eslint+prettier
+title: eslint规则
 createTime: 2025/07/16 15:29:12
 permalink: /frontend/vue3/eslint/
+badge: vue3
 ---
 
 ## 概述
