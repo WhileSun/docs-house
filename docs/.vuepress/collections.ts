@@ -7,6 +7,7 @@ export const devops = defineCollection({
   sidebar: [
     { text: '服务器', prefix: 'server', items: 'auto' },
     { text: 'podman', prefix: 'podman', items: 'auto' },
+    { text: 'Docker', prefix: 'docker', items: 'auto'},
   ]
 })
 
