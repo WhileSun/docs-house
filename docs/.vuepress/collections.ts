@@ -9,7 +9,14 @@ export const devops = defineCollection({
     { text: 'Docker', collapsed: false, prefix: 'docker', items: [
       'install', 'base-command', 'data-persistence', 'network-mode', 'private-repository', 'dockerfile-command', 'dockerfile-build', 'compose-command'
     ]},
-    { text: 'podman', prefix: 'podman', items: 'auto' },
+    { text: 'podman', collapsed: false, prefix: 'podman', items: [
+      'install',
+      {
+        text: 'VuePress', prefix: 'vuepress', items: [
+          'deploy', 'github-actions'
+        ],
+      },
+    ]},
   ]
 })
 
