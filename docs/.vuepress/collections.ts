@@ -45,7 +45,23 @@ export const frontend = defineCollection({
   ],
 })
 
+export const backend = defineCollection({
+  type: 'doc',
+  dir: 'backend',
+  title: '后端',
+  sidebar:[
+    {text: 'Python', collapsed: false, prefix: 'python', items: [
+      {
+        text: '基础', collapsed: false, prefix: 'base', items: [
+          'install', 'data-types', 'data-structures', 'use-operators', 'condition-loop', 'function', 'class', 'file', 'error', 'run', 'pep8'
+        ],
+      },
+    ]}
+  ]
+})
+
 export const collections = defineCollections([
   devops,
-  frontend
+  frontend,
+  backend
 ])
