@@ -9,7 +9,7 @@ export const devops = defineCollection({
     { text: 'Docker', collapsed: false, prefix: 'docker', items: [
       'install', 'base-command', 'data-persistence', 'network-mode', 'private-repository', 'dockerfile-command', 'dockerfile-build', 'compose-command'
     ]},
-    { text: 'podman', collapsed: false, prefix: 'podman', items: [
+    { text: 'Podman', collapsed: false, prefix: 'podman', items: [
       'install',
       {
         text: 'VuePress', prefix: 'vuepress', items: [
@@ -26,9 +26,9 @@ export const frontend = defineCollection({
   title: '前端',
   sidebar: [
     // 次级 items 自动读取 typescript/guide 目录
-    { text: 'vue2', collapsed: false, prefix: 'vue2', items: 'auto' },
+    { text: 'Vue2', collapsed: false, prefix: 'vue2', items: 'auto' },
     {
-      text: 'vue3', collapsed: false, prefix: 'vue3', items: [
+      text: 'Vue3', collapsed: false, prefix: 'vue3', items: [
         {
           text: '基础setup', collapsed: false, prefix: 'script', items: [
             'lifecycle', 'reactivity-create', 'reactivity-listen', 'reactivity-utils', 'use-function', 'define-function'
@@ -39,7 +39,7 @@ export const frontend = defineCollection({
         }
       ]
     },
-    { text: 'vite', collapsed: false, prefix: 'vite', items: 'auto' },
+    { text: 'Vite', collapsed: false, prefix: 'vite', items: 'auto' },
     { text: '小程序', prefix: 'miniprogram', items: 'auto' },
     { text: '开发工具', prefix: 'devtool', items: 'auto' },
   ],
@@ -54,6 +54,13 @@ export const backend = defineCollection({
       {
         text: '基础', collapsed: false, prefix: 'base', items: [
           'install', 'data-types', 'data-structures', 'use-operators', 'condition-loop', 'function', 'class', 'file', 'error', 'run', 'pep8'
+        ],
+      },
+      {
+        text: '进阶', collapsed: false, prefix: 'advance', items: [
+          {
+            text: '核心语法', prefix: 'core-grammar', items: ['unpack', 'generator', 'decorator', 'context-manager']
+          },
         ],
       },
     ]}
