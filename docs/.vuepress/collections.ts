@@ -6,17 +6,21 @@ export const devops = defineCollection({
   title: '运维',
   sidebar: [
     { text: '服务器', prefix: 'server', items: 'auto' },
-    { text: 'Docker', collapsed: false, prefix: 'docker', items: [
-      'install', 'base-command', 'data-persistence', 'network-mode', 'private-repository', 'dockerfile-command', 'dockerfile-build', 'compose-command'
-    ]},
-    { text: 'Podman', collapsed: false, prefix: 'podman', items: [
-      'install',
-      {
-        text: 'VuePress', prefix: 'vuepress', items: [
-          'deploy', 'github-actions'
-        ],
-      },
-    ]},
+    {
+      text: 'Docker', collapsed: false, prefix: 'docker', items: [
+        'install', 'base-command', 'data-persistence', 'network-mode', 'private-repository', 'dockerfile-command', 'dockerfile-build', 'compose-command'
+      ]
+    },
+    {
+      text: 'Podman', collapsed: false, prefix: 'podman', items: [
+        'install',
+        {
+          text: 'VuePress', prefix: 'vuepress', items: [
+            'deploy', 'github-actions'
+          ],
+        },
+      ]
+    },
   ]
 })
 
@@ -49,21 +53,26 @@ export const backend = defineCollection({
   type: 'doc',
   dir: 'backend',
   title: '后端',
-  sidebar:[
-    {text: 'Python', collapsed: false, prefix: 'python', items: [
-      {
-        text: '基础', collapsed: false, prefix: 'base', items: [
-          'install', 'data-types', 'data-structures', 'use-operators', 'condition-loop', 'function', 'class', 'file', 'error', 'run', 'pep8'
-        ],
-      },
-      {
-        text: '进阶', collapsed: false, prefix: 'advance', items: [
-          {
-            text: '核心语法', prefix: 'core-grammar', items: ['unpack', 'generator', 'decorator', 'context-manager']
-          },
-        ],
-      },
-    ]}
+  sidebar: [
+    {
+      text: 'Python', collapsed: false, prefix: 'python', items: [
+        {
+          text: '基础', collapsed: false, prefix: 'base', items: [
+            'install', 'data-types', 'data-structures', 'use-operators', 'condition-loop', 'function', 'class', 'file', 'error', 'run', 'pep8'
+          ],
+        },
+        {
+          text: '进阶', collapsed: false, prefix: 'advance', items: [
+            {
+              text: '核心语法', collapsed: true, prefix: 'core-grammar', items: ['unpack', 'generator', 'decorator', 'context-manager']
+            },
+            {
+              text: '高级数据结构', collapsed: true, prefix: 'data-structure', items: 'auto'
+            }
+          ],
+        },
+      ]
+    }
   ]
 })
 
