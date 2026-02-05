@@ -68,6 +68,9 @@ export const backend = defineCollection({
             },
             {
               text: '高级数据结构', collapsed: true, prefix: 'data-structure', items: 'auto'
+            },
+            {
+              text: '面对对象高级特性', collapsed: true, prefix: 'object-oriented', items: ['special-methods', 'property', 'abstract-class', 'mro-extend']
             }
           ],
         },
