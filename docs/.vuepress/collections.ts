@@ -71,6 +71,9 @@ export const backend = defineCollection({
             },
             {
               text: '面对对象高级特性', collapsed: true, prefix: 'object-oriented', items: ['special-methods', 'property', 'abstract-class', 'mro-extend']
+            },
+            {
+              text: '函数式编程核心', collapsed: true, prefix: 'core-func', items: 'auto'
             }
           ],
         },
