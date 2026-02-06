@@ -80,6 +80,9 @@ export const backend = defineCollection({
             },
             {
               text: '核心实战', collapsed: true, prefix: 'core-combat', items: 'auto'
+            },
+            {
+              text: '调试与测试', collapsed: true, prefix: 'core-debug', items: 'auto'
             }
           ],
         },
