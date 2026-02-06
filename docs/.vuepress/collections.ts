@@ -74,6 +74,9 @@ export const backend = defineCollection({
             },
             {
               text: '函数式编程核心', collapsed: true, prefix: 'core-func', items: 'auto'
+            },
+            {
+              text: '工程化开发规范', collapsed: true, prefix: 'engineering-dev', items: 'auto'
             }
           ],
         },
