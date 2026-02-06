@@ -77,6 +77,9 @@ export const backend = defineCollection({
             },
             {
               text: '工程化开发规范', collapsed: true, prefix: 'engineering-dev', items: 'auto'
+            },
+            {
+              text: '核心实战', collapsed: true, prefix: 'core-combat', items: 'auto'
             }
           ],
         },
