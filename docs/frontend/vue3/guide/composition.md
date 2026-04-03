@@ -49,7 +49,7 @@ export default {
 }
 ```
 
-### 使用 <script setup> 语法糖
+### 使用 `<script setup>` 语法糖
 
 ```vue
 <script setup>
