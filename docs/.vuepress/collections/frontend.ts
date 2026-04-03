@@ -68,7 +68,63 @@ export const frontend = defineCollection({
       ]
     },
     {
-      text: 'Vue3', collapsed: false, prefix: 'vue3', items: 'auto'
+      text: 'Vue3', collapsed: false, prefix: 'vue3', items: [
+        {
+          text: '概述', prefix: '', items: [
+            'index'
+          ]
+        },
+        {
+          text: '基础指南', prefix: 'guide', items: [
+            'basics', 'fundamentals', 'composition'
+          ]
+        },
+        {
+          text: '核心概念', prefix: 'guide', items: [
+            'communication', 'slots', 'api-changes', 'reactivity-syntax'
+          ]
+        },
+        {
+          text: '高级特性', prefix: 'guide', items: [
+            'advanced'
+          ]
+        },
+        {
+          text: '性能优化', prefix: 'guide', items: [
+            'performance'
+          ]
+        },
+        {
+          text: '错误处理', prefix: 'guide', items: [
+            'error-handling'
+          ]
+        },
+        {
+          text: '最佳实践', prefix: 'guide', items: [
+            'best-practices'
+          ]
+        },
+        {
+          text: '生态系统', prefix: 'guide', items: [
+            'ecosystem'
+          ]
+        },
+        {
+          text: '迁移指南', prefix: 'guide', items: [
+            'migration'
+          ]
+        },
+        {
+          text: '测试', prefix: 'guide', items: [
+            'testing'
+          ]
+        },
+        {
+          text: '示例', prefix: 'examples', items: [
+            'basic', 'composition'
+          ]
+        }
+      ]
     },
     {
       text: 'Vite', collapsed: false, prefix: 'vite', items: 'auto'
